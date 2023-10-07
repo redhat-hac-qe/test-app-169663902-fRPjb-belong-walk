@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: java-quarkus-169663902
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/hacdev/1v5bvl6p-tenant/test-app-169663902/java-quarkus-169663902@sha256:15119a46f9dd48ed9312b1bf80665043375e6b13e100828f541236e746b66b58
         name: my-java-quarkus
         ports:
         - containerPort: 8081
